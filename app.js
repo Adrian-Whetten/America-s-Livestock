@@ -12,7 +12,7 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI =
+const MONGODB_URI = process.env.MONGODB_URI ||
   'mongodb+srv://Moondawg32:Moondawg!!04@ecommerce.o3qob.mongodb.net/shop?retryWrites=true&w=majority';
 
 const app = express();
