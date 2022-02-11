@@ -1,4 +1,5 @@
 const path = require('path');
+const PATH = process.env.PORT || 5000;
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -12,7 +13,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-  'mongodb+srv://Moondawg32:Moondawg!!04@ecommerce.o3qob.mongodb.net/shop';
+  'mongodb+srv://Moondawg32:Moondawg!!04@ecommerce.o3qob.mongodb.net/shop?retryWrites=true&w=majority';
 
 const app = express();
 const store = new MongoDBStore({
@@ -91,7 +92,7 @@ mongoose
   .catch(err => {
     console.log(err);
   });
-const PATH = process.env.PORT || 5000;
+
 
   // app.use((req, res, next) => {
 //   User.findById('61fd8b47f5ce59f850571816')
