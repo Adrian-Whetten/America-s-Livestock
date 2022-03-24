@@ -5,32 +5,65 @@
 <body>
     <%- include('includes/navigation.ejs') %>
 
-    <main>
+    <main-home>
+        <div class="side"></div>
         <div class="homeCards">
-            <div class="card">
+            <div id="meat" class="card">
+                <a href="/meat">
+                    <div class="card-header">
+                        Meat
+                    </div>
+                    <div class="card-content">
+                        <img src="https://www.thecattlesite.com/breeds/contents/Angus%20Bull.jpg" alt="steak">
+                    </div>
+                </a>
+            </div>
+            <div id="milk" class="card">
+                <a href="/milk">
+                    <div class="card-header">
+                    Milk
+                    </div>
+                    <div class="card-content">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg" alt="milk">
+                    </div>
+                </a>
+                
+            </div>
+            <div id="work" class="card">
                 <div class="card-header">
-                    Meat
+                    Working
                 </div>
                 <div class="card-content">
-                    <img src="/images/meat.jpg" alt="steak">
+                    <img src="../public/images/work.jpg" alt="work">
                 </div>
             </div>
-            <div class="card">
-                Milk
+            <div id="hide" class="card">
+                <div class="card-header">
+                    Hide
+                </div>
+                <div class="card-content">
+                    <img src="/images/hide.jpg" alt="hide">
+                </div>
             </div>
-            <div class="card">
-                Hide
+            <div id="sports" class="card">
+                <div class="card-header">
+                    Sports
+                </div>
+                <div class="card-content">
+                    <img src="https://data.europa.eu/sites/default/files/news/2020-08-06-edp_book_club.png" alt="sports">
+                </div>
             </div>
-            <div class="card">
-                Hide
+            <div id="all" class="card">
+                <a href="/all">
+                    <div class="card-header">
+                        All
+                    </div>
+                    <div class="card-content">
+                        <img src="https://data.europa.eu/sites/default/files/news/2020-08-06-edp_book_club.png" alt="all">
+                    </div>
+                </a>
             </div>
-            <div class="card">
-                Sports
-            </div>
-            <div class="card">
-                All
-            </div>
-
         </div>
-    </main>
+        <div class="side"></div>
+    </main-home>
 <%- include('includes/end.ejs') %>

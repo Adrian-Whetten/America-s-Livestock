@@ -4,21 +4,10 @@
     <nav class="main-header__nav">
         <ul class="main-header__item-list">
             <li class="main-header__item">
-                <a class="<%= path === '/' ? 'active' : '' %>" href="/">Home</a>
-            </li>
-            <li class="main-header__item">
-                <a class="<%= path === '/mile' ? 'active' : '' %>" href="/milk">Milk</a>
-            </li>
-            <li class="main-header__item">
-                <a class="<%= path === '/meat' ? 'active' : '' %>" href="/meat">Meat</a>
-            </li>
-            <li class="main-header__item">
-                <a class="<%= path === '/sports' ? 'active' : '' %>" href="/sports">Sports</a>
-            </li>
-            <li class="main-header__item">
-                <a class="<%= path === '/hide' ? 'active' : '' %>" href="/hide">Hide
-                </a>
+                <a class="<%= path === '/' ? 'active' : '' %>" href="/">HOME</a>
+                
             </li>
         </ul>
+        <span class="pageTitle"><%= pageTitle %></span>
     </nav>
 </header>

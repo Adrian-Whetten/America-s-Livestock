@@ -1,14 +1,10 @@
 .homeCards{
-    width: auto;
     display: grid;
-    -ms-grid-columns: 100px 50px 100px;
-    -ms-grid-rows: 80px auto 80px; 
-    column-gap: 10px;
-    row-gap: 15px;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.card {
-    width: 15rem;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    column-gap: 2%;
+    row-gap: 15%;
+    width: 70%;
 }
