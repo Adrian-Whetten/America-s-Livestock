@@ -129,6 +129,4 @@ router.get('/milking-devon', homeController.getMilkingDevon);
 
 router.get('/montbeliarde', homeController.getMontbeliarde);
 
-
-
 module.exports = router;

@@ -50,6 +50,16 @@ main {
   height: auto;
 }
 
+.info {
+  width: 70%;
+  margin: auto;
+}
+
+.infoContent {
+  width: 90%;
+  margin: auto;
+}
+
 .page-layout {
   width: 70%;
   display: grid;
@@ -110,6 +120,7 @@ main {
 .card-content img {
   width: 90%;
   margin-left: 5%;
+  height: 12.5rem;
 }
 
 .card-content img.reverse {
