@@ -92,6 +92,20 @@ main {
   color: white;
 }
 
+.pic img {
+  max-height: 200px;
+}
+
+.subMainPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.subMainPics img {
+  max-height: 150px;
+}
+
 .cards-list {
   display: grid;
   justify-content: space-evenly;
