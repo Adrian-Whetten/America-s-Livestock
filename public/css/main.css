@@ -76,6 +76,12 @@ main {
 .pattern-list { grid-area: 8 / 9 / 9 / 12; padding-left: 1.5%;}
 .specInfo-title { grid-area: 10 / 2 / 11 / 12; font-size: 2rem; margin-top: 3%;}
 .specInfo { grid-area: 11 / 2 / 14 / 12; }
+.getCitation { background-color: #d7aa85}
+.getCitation .row { margin: auto; width: 80%;}
+.getCitation .row div { margin: auto; width: 80%;}
+
+.citeThis .row { margin: auto; width: 80%; display: flex; flex-direction: row;}
+.citeThis .row div { margin: auto; width: 50%;}
 
 .heightweight {
   padding-left: 1.5%;
@@ -85,6 +91,8 @@ main {
 .getPattern:empty {
   display: none;
 }
+
+
 
 .pageTitle {
   margin: auto;

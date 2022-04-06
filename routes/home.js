@@ -53,8 +53,6 @@ router.get('/charolais', homeController.getCharolais);
 
 router.get('/chianina', homeController.getChianina);
 
-router.get('/composite', homeController.getComposite);
-
 router.get('/corriente', homeController.getCorriente);
 
 router.get('/dexter', homeController.getDexter);
@@ -63,23 +61,15 @@ router.get('/gelbvieh', homeController.getGelbvieh);
 
 router.get('/hereford', homeController.getHereford);
 
-router.get('/highland', homeController.getAubrac);
+router.get('/highland', homeController.getHighland);
 
 router.get('/limousin', homeController.getLimousin);
 
 router.get('/lincoln-red', homeController.getLincolnRed);
 
-router.get('/lowline', homeController.getLowline);
-
 router.get('/marchigiana', homeController.getMarchigiana);
 
-router.get('/miniature-herefor', homeController.getMiniatureHereford);
-
 router.get('/murray-gray', homeController.getMurrayGray);
-
-router.get('/nelore', homeController.getNelore);
-
-router.get('/parthenais', homeController.getParthenais);
 
 router.get('/Pinzgauer', homeController.getPinzgauer);
 
@@ -89,11 +79,9 @@ router.get('/red-poll', homeController.getRedPoll);
 
 router.get('/romagnola', homeController.getRomagnola);
 
-router.get('/santa-gertrudi', homeController.getSantaGertrudis);
+router.get('/santa-gertrudis', homeController.getSantaGertrudis);
 
 router.get('/senepol', homeController.getSenepol);
-
-router.get('/simbrah', homeController.getSimbrah);
 
 router.get('/south-devon', homeController.getSouthDevon);
 
@@ -115,8 +103,6 @@ router.get('/brown-swiss', homeController.getBrownSwiss);
 
 router.get('/dairy-shorthorn', homeController.getDairyShorthorn);
 
-router.get('/dutch-belted', homeController.getDutchBelted);
-
 router.get('/friesian', homeController.getFriesian);
 
 router.get('/guernsey', homeController.getGuernsey);
@@ -126,7 +112,5 @@ router.get('/holstein', homeController.getHolstein);
 router.get('/jersey', homeController.getJersey);
 
 router.get('/milking-devon', homeController.getMilkingDevon);
-
-router.get('/montbeliarde', homeController.getMontbeliarde);
 
 module.exports = router;
